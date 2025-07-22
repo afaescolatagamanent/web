@@ -3,7 +3,7 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main  # o la rama donde tienes tu código fuente Jekyll
+      - master  # o la rama donde tienes tu código fuente Jekyll
 
 jobs:
   build-deploy:
