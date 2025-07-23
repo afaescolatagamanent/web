@@ -5,12 +5,12 @@ topmenu:
   url: ""
 
 - title: About
-    url: "about/"
-      submenu:
-      - title: Team
-        url: "about/team/"
-      - title: History
-        url: "about/history/"
+  url: "about/"
+  submenu:
+    - title: Team
+      url: "about/team/"
+    - title: History
+      url: "about/history/"
 
 - title: Contact
   url: "contact/"
