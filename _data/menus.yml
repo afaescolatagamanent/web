@@ -6,14 +6,9 @@ topmenu:
 
 - title: Qui Som?
   url: "about/"
-  submenu:
-    - title: Team
-      url: "about/team/"
-    - title: History
-      url: "about/history/"
 
 - title: Comisions
-  url: "comissions/"
+  url: ""
   submenu:
     - title: Extraescolars
       url: "comissions/extraescolars/"
@@ -35,7 +30,8 @@ topmenu:
       url: "comissions/transport/"
 
 - title: Menu menjador
-  url: ""
+  url: "https://agora.xtec.cat/ceiptagamanent/wp-content/uploads/usu914/2025/10/OCTUBRE-25-TAGAMANENT-1.pdf"
+  external: true
 
 - title: Contact
   url: "contact/"
