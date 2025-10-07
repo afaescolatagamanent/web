@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Is Intelligence Enough"
+title:  "TItulo post 2"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
+excerpt: "Este es un resumen corto del post."
 ---
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 
 

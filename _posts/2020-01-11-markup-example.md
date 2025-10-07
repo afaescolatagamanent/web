@@ -1,26 +1,16 @@
 ---
 layout: post
-title:  "Markdown Example"
+title:  "Entre totes, cap infant es queda enrere"
 author: john
 categories: [ Jekyll, tutorial ]
-image: assets/images/6.jpg
+image: assets/images/soli.jpg
+excerpt: "Este es un resumen corto del post."
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. Something.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+La situació actual que vivim fruit de la pandèmia i les previsions econòmiques que ens auguren, posen sobre la taula que cada vegada hi ha més famílies que necessiten suport per poder participar de les activitats i serveis que s’ofereixen des de l’àmbit escolar.
 
-Jekyll also offers powerful support for code snippets:
+La participació de les administracions no és, ni de bon tros, la necessària i tot i els esforços constants que fem escola i AFA de vegades no hi arribem. És en aquest sentit que volíem començar una campanya per fer una caixa de solidaritat i poder arribar a tothom.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Després de moltes propostes, ha sorgit la idea de posar una caixa de solidaritat als diferents actes i festes que se celebrin. D’aquesta manera, qui vulgui i pugui podrà donar un cop de mà. Qualsevol aportació serà benvinguda i podrà ajudar les famílies més necessitades.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Entre totes, ens en sortirem! Cap infant es pot quedar enrere!

@@ -9,11 +9,11 @@
 
 {% seo %}
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
-
-<!-- custom CSS - Remove this if you don't use it or choose to customize the stylesheet with sass-->
 <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
-<!-- custom CSS end-->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     
 {% if jekyll.environment == "production" %}       
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -49,7 +49,7 @@ gtag('config', '{{site.ganalytics}}');
 
           <div class="d-flex align-items-center">
             
-            <span class="ml-3 text-muted small">Follow</span>
+            <span class="ml-3 text-muted small">Follows</span>
 
             <a class="d-inline-block social-icon" target="_blank" href="{{site.social.twitter}}">
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -78,20 +78,38 @@ gtag('config', '{{site.ganalytics}}');
           </button>
           
           <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div style="color: red; font-weight: bold;">INICIO DEL MENU</div>
             <ul class="navbar-nav ml-auto font-weight-bold d-flex align-items-center">
               {% for item in site.data.menus.topmenu %}
-	      <li class="nav-item dropdown {% if item.submenu %}has-submenu{% endif %}">  
-	          <a class="nav-link dropdown-toggle {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" {% if item.submenu %}data-bs-toggle="dropdown" role="button" aria-expanded="false"{% endif %} alt="{{item.title}}">
-			            {{item.title}}
-				        </a>
-	      {% if item.submenu %}
-	      <ul class="dropdown-menu">
-		        {% for subitem in item.submenu %}
-		      <li><a class="dropdown-item" href="{{ site.baseurl }}/{{subitem.url}}">{{subitem.title}}</a></li>
-				            {% endfor %}
+                <li class="nav-item {% if item.submenu %}dropdown{% endif %}">
+                  <a class="nav-link {% if item.submenu %}dropdown-toggle{% endif %}"
+                     href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}"
+                     {% if item.submenu %}data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"{% endif %}>
+                    {{item.title}}
+                  </a>
+                  {% if item.submenu %}
+                    <ul class="dropdown-menu">
+                      {% for subitem in item.submenu %}
+                        <li><a class="dropdown-item" href="{{ site.baseurl }}/{{subitem.url}}">{{subitem.title}}</a></li>
+                      {% endfor %}
+                    </ul>
+            <div style="color: blue; font-weight: bold;">FIN DEL MENU</div>
+            <!-- Menú estático de prueba para depuración -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="testDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menú Prueba</a>
+              <ul class="dropdown-menu" aria-labelledby="testDropdown">
+                <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                <li><a class="dropdown-item" href="#">Opción 2</a></li>
               </ul>
-              {% endif %}
-	      </li>
+            </li>
+<script>
+// Script de depuración para forzar el despliegue Bootstrap
+$(document).ready(function(){
+  $('.dropdown-toggle').dropdown();
+});
+</script>
+                  {% endif %}
+                </li>
               {% endfor %}
             </ul>
           </div>
@@ -134,9 +152,15 @@ gtag('config', '{{site.ganalytics}}');
 
 <!-- JavaScript
 ================================================== -->    
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
-<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>   
-<script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+<script>
+// Script de depuración visual para mostrar el menú desplegable
+$(document).ready(function(){
+  $('.dropdown-toggle').dropdown();
+});
+</script>
     
 </body>
     

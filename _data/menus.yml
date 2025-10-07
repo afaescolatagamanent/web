@@ -4,7 +4,7 @@ topmenu:
 - title: Home
   url: ""
 
-- title: About
+- title: Qui Som?
   url: "about/"
   submenu:
     - title: Team
@@ -12,13 +12,34 @@ topmenu:
     - title: History
       url: "about/history/"
 
+- title: Comisions
+  url: "comissions/"
+  submenu:
+    - title: Extraescolars
+      url: "comissions/extraescolars/"
+    - title: Biblioteca
+      url: "comissions/biblioteca/"
+    - title: Comunicació
+      url: "comissions/comunicacio/"
+    - title: Festes i activitats
+      url: "comissions/festes-activitats/"
+    - title: Menjador
+      url: "comissions/menjador/"
+    - title: Medi Ambient
+      url: "comissions/medi-ambient/"
+    - title: Salut i seguretat
+      url: "comissions/salut-seguritat/"
+    - title: Suport a les famílies
+      url: "comissions/suport-families/"
+    - title: Transport
+      url: "comissions/transport/"
+
+- title: Menu menjador
+  url: ""
+
 - title: Contact
   url: "contact/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  class: "ml-2 btn btn-dark text-white px-3"
-  external: true
 
 # Footer Menu
 footermenu:
