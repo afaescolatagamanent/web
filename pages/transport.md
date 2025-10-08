@@ -2,7 +2,7 @@
 layout: page
 title: Comissió de Transport
 permalink: "comissions/transport/"
-image: assets/images/biblioteca.png
+image: assets/images/transport.png
 ---
 
 La Comissió de Transport de l’AFA té com a objectiu garantir un desplaçament segur, eficient i coordinat dels infants cap a l’escola i durant les activitats escolars. Treballem per facilitar la mobilitat de les famílies i millorar l’organització del transport, sempre prioritzant la seguretat i el benestar dels nens i nenes.

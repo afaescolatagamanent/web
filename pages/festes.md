@@ -2,7 +2,7 @@
 layout: page
 title: Comissió de Festes i Activitats
 permalink: "comissions/festes/"
-image: assets/images/festes.png
+image: assets/images/mans.png
 ---
 
 La Comissió de Festes i Activitats és l’encarregada de donar vida i color al dia a dia de l’escola. Creiem que les festes i les trobades són moments essencials per enfortir els vincles entre famílies, infants i mestres, i per celebrar tot allò que ens uneix com a comunitat.

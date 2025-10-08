@@ -2,7 +2,7 @@
 layout: page
 title: Benvingudes i benvinguts a l’AFA escola Tagamanent! 🎉
 permalink: "/about/"
-image: assets/images/mans.jpg
+image: assets/images/mans.png
 ---
 
 

@@ -2,7 +2,7 @@
 layout: page
 title: Comissió de Comunicació
 permalink: "comissions/comunicacio/"
-image: assets/images/biblioteca.png
+image: assets/images/mans.png
 ---
 
 La Comissió de Comunicació de l’AFA té com a objectiu facilitar la informació i la connexió entre les famílies, l’escola i les diferents comissions. Creiem que una bona comunicació és clau per construir una comunitat educativa transparent, participativa i cohesionada.

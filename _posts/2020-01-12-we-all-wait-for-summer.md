@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Xocolatada solidària i nou “pati obert”"
+author: JuntaAFA
 categories: [ Jekyll, tutorial ]
 image: assets/images/xoco_mini.png
 excerpt: "Aquest dilluns 13 de febrer hem inaugurat"
