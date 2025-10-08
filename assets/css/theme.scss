@@ -135,8 +135,16 @@ small, .small {
 /* Pages
 ================================================== */
 .hero {
-    background: #fdd93d;
+    background: #fff;
     padding: 5rem 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero {
+        background-size: contain !important;
+        min-height: 200px;
+        background-position: center center !important;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
