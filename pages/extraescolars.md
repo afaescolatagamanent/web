@@ -2,7 +2,7 @@
 layout: page
 title: Comissio d'extraescolars
 permalink: "comissions/extraescolars/"
-image: assets/images/mans.jpg
+image: assets/images/extraescolars.png
 ---
 
 

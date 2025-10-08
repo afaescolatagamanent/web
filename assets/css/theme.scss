@@ -142,8 +142,10 @@ small, .small {
 @media only screen and (max-width: 767px) {
     .hero {
         background-size: contain !important;
-        min-height: 200px;
+        min-height: 40vw !important;
         background-position: center center !important;
+        padding: 0.5rem 0 !important;
+        display: block !important;
     }
 }
 
@@ -332,8 +334,18 @@ blockquote {
     font-size: .9em;
 }
 .featured-image {
-    display: block;
-    margin-bottom: 2rem;
+        display: block;
+        margin-bottom: 2rem;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .featured-image {
+        max-height: 100px;
+    }
 }
 
 .full-width {

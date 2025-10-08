@@ -17,15 +17,15 @@ topmenu:
     - title: Comunicació
       url: "comissions/comunicacio/"
     - title: Festes i activitats
-      url: "comissions/festes-activitats/"
+      url: "comissions/festes/"
     - title: Menjador
       url: "comissions/menjador/"
     - title: Medi Ambient
-      url: "comissions/medi-ambient/"
+      url: "comissions/mediambient/"
     - title: Salut i seguretat
-      url: "comissions/salut-seguritat/"
+      url: "comissions/salutseguretat/"
     - title: Suport a les famílies
-      url: "comissions/suport-families/"
+      url: "comissions/suport/"
     - title: Transport
       url: "comissions/transport/"
 
