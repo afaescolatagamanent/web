@@ -5,7 +5,7 @@ baseurl: "/web"
 permalink: "/:title/"
 
 favicon: 'assets/images/favicon.svg'
-author: Sal
+author: JuntaAFA
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -24,7 +24,7 @@ ganalytics:
 
 # Authors
 authors:
-  sal:
+  JuntaAFA:
     name: JuntaAFA
     display_name: JuntaAFA
     avatar: 'assets/images/juntaAFA.png'

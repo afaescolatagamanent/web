@@ -370,7 +370,19 @@ blockquote {
 
 
 .card {	
-    border:0;
+    border: 1px solid #ecebe6;
+    background: #f9f9f6;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+    border-radius: 12px;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
 }
 .card .img-thumb {
 	border-top-right-radius:4px;
