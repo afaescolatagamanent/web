@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Entre totes, cap infant es queda enrere"
-author: john
+author: JuntaAFA
 categories: [ Jekyll, tutorial ]
 image: assets/images/soli.jpg
 excerpt: "Este es un resumen corto del post."

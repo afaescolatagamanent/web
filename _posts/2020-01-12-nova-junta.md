@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "T’animes a formar part de la nova junta?"
-author: sal
+author: JuntaAFA
 categories: [ Jekyll, tutorial ]
 image: assets/images/junta.jpg
-excerpt: "Vine a la junta!."
+excerpt: "Vine a la junta!"
 ---
 Benvolgudes famílies,
 

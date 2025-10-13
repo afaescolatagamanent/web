@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Renovem la Junta de l’AFA!"
+author: JuntaAFA
 date: 2023-03-09
-author: Sal
 image: assets/images/volun.jpg
 excerpt: "Renovacio junta AFA."
 ---

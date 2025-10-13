@@ -370,15 +370,16 @@ blockquote {
 
 
 .card {	
-    border: 1px solid #ecebe6;
-    background: #f9f9f6;
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
-    border-radius: 12px;
+    border: 2px solid #d1d1c9;
+    background: #f5f5ef;
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.10);
+    border-radius: 16px;
     transition: box-shadow 0.2s, border-color 0.2s;
     min-height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 1.2rem 1.2rem 1rem 1.2rem;
 }
 
 .card:hover {
